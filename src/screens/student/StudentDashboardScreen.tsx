@@ -9,14 +9,14 @@ import {
   FlatList,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { colors, typography, spacing, borderRadius } from '../theme';
+import { colors, typography, spacing, borderRadius } from '../../theme';
 import {
   Header,
   BalanceCard,
   StatCard,
   QuickAction,
   TransactionCard,
-} from '../components';
+} from '../../components';
 
 interface StudentDashboardScreenProps {
   onViewReceipts: () => void;

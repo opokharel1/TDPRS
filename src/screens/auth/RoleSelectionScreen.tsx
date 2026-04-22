@@ -7,8 +7,8 @@ import {
   SafeAreaView,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
-import { Button } from '../components';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
+import { Button } from '../../components';
 
 interface RoleSelectionScreenProps {
   onRoleSelect: (role: 'student' | 'accountant' | 'admin') => void;

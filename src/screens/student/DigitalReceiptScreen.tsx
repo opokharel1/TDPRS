@@ -10,8 +10,8 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import QRCode from 'react-native-qrcode-svg';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
-import { Header, Button, Card, Badge } from '../components';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
+import { Header, Button, Card, Badge } from '../../components';
 
 interface DigitalReceiptScreenProps {
   onBackPress: () => void;

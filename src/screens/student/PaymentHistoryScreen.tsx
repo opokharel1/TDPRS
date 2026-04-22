@@ -9,8 +9,8 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
-import { Header, TransactionCard } from '../components';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
+import { Header, TransactionCard } from '../../components';
 
 interface PaymentHistoryScreenProps {
   onTransactionPress: (txId: string) => void;

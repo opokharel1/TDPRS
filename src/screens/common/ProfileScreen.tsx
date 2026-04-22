@@ -9,8 +9,8 @@ import {
   Alert,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
-import { Header, Button, Card } from '../components';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
+import { Header, Button, Card } from '../../components';
 
 interface ProfileScreenProps {
   onBackPress: () => void;

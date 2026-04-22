@@ -10,8 +10,8 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { PieChart } from 'react-native-chart-kit';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
-import { Header, StatCard, QuickAction, Card } from '../components';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
+import { Header, StatCard, QuickAction, Card } from '../../components';
 
 interface AdminDashboardScreenProps {
   onManageUsers: () => void;

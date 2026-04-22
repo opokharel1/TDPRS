@@ -10,13 +10,13 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { LineChart } from 'react-native-chart-kit';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
 import {
   Header,
   BalanceCard,
   StatCard,
   QuickAction,
-} from '../components';
+} from '../../components';
 
 interface AccountantDashboardScreenProps {
   onRecordPayment: () => void;

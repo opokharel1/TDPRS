@@ -8,8 +8,8 @@ import {
   FlatList,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
-import { Header, Input, Button, Card, Badge } from '../components';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
+import { Header, Input, Button, Card, Badge } from '../../components';
 
 interface VerifyPaymentScreenProps {
   onBackPress: () => void;

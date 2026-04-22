@@ -8,9 +8,9 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
-import { Button, Input, Card } from '../components';
-import { Header } from '../components';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
+import { Button, Input, Card } from '../../components';
+import { Header } from '../../components';
 
 interface WalletConnectionScreenProps {
   onWalletConnected: (walletAddress: string) => void;

@@ -8,8 +8,8 @@ import {
   TouchableOpacity,
   Alert,
 } from 'react-native';
-import { colors, typography, spacing, borderRadius } from '../theme';
-import { Header, Button, Input, Card } from '../components';
+import { colors, typography, spacing, borderRadius } from '../../theme';
+import { Header, Button, Input, Card } from '../../components';
 
 interface RecordPaymentScreenProps {
   onBackPress: () => void;

@@ -10,8 +10,8 @@ import {
   Alert,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { colors, typography, spacing, borderRadius, shadows } from '../theme';
-import { Header, Button, Card, Input, Badge } from '../components';
+import { colors, typography, spacing, borderRadius, shadows } from '../../theme';
+import { Header, Button, Card, Input, Badge } from '../../components';
 
 interface UserManagementScreenProps {
   onBackPress: () => void;
