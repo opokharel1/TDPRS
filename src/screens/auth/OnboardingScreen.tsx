@@ -13,7 +13,8 @@ import { colors, typography, spacing, borderRadius } from '../../theme';
 import { Button } from '../../components';
 
 interface OnboardingScreenProps {
-  onComplete: () => void;
+  onComplete?: () => void;
+  navigation?: any;
 }
 
 const onboardingData = [
@@ -43,14 +44,15 @@ const onboardingData = [
   },
 ];
 
-export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }) => {
+export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete, navigation }) => {
   const [currentStep, setCurrentStep] = useState(0);
 
   const handleNext = () => {
     if (currentStep < onboardingData.length - 1) {
       setCurrentStep(currentStep + 1);
     } else {
-      onComplete();
+      onComplete?.();
+      navigation?.navigate('RoleSelection');
     }
   };
 
